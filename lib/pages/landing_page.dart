@@ -30,7 +30,7 @@ class LandingPage extends StatelessWidget {
                         color: AppColors.textGray, fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Quotes"',
+                    '"Quotes"',
                     style: AppStyles.h3,
                     textAlign: TextAlign.end,
                   )

@@ -1,4 +1,3 @@
-import 'package:english_card_app/pages/home_page.dart';
 import 'package:english_card_app/pages/landing_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const LandingPage(),
       debugShowCheckedModeBanner: false,
     );
   }
